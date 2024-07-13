@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    background-color: #73628A;
+    color: #2A1A1F;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+nav img {
+    height: 10vh;
+    cursor: pointer;
+}
+
+.game {
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #183642;
+}
+
+.choices {
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.choices img {
+    width: 20vmin;
+    height: 20vmin;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.choice {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vmin;
+    height: 22vmin;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    background-color: black;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    gap: 5vw;
+}
+
+#user-score,
+#comp-score {
+    font-size: 5vh;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272838;
+    font-size: x-large;
+    color: #586F6B;
+    font-weight: bold;
+    margin-top: 7vh;
+    min-width: 15vw;
+    min-height: 4vw;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pop-up {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #251605;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    text-align: center;
+    z-index: 1000;
+    width: 70vw;
+    height: 65vh;
+    gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F6E27F;
+    font-size: 2rem;
+}
+
+.pop-up button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color: #E2C391;
+}
