@@ -28,3 +28,5 @@ Run index.html file to open the game.
 
 ### All the styling has been done using `CSS` and the script of the game is written using `JavaScript`
 
+## Thankyou.
+
