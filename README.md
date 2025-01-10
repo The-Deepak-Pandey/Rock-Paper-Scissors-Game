@@ -1,6 +1,8 @@
 # Rock Paper Scissors Game
 This is a Rock Paper Scissors Game made which is played between the user and the computer. 
 
+I made this project to learn the basics of Javascript.
+
 This project is made using `HTML`, `CSS` and `JavaScript`.
 
 ### Open the Game
